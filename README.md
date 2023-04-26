@@ -98,6 +98,8 @@ You can deploy this project by transfering files in your local repository onto y
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
+I will add more images to be attructive.
+Am to add buttons for easy access of other features. 
 
 - [ ] **[new_feature_1]**
 - [ ] **[new_feature_2]**
