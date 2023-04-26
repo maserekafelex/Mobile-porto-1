@@ -8,77 +8,77 @@
 body {
   background-color: #e5e5e5;
   font-family: "Poppins", sans-serif;
- 
 }
-  .container {
-    display:flex;
-    flex-direction: column;
-    padding: 24px;
-    font-family: "Poppins", sans-serif;
-    background: url("./images/bg/header-shapes\ mobile.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-color: #fff;
-    margin-bottom: 40%;
-    border-bottom-left-radius: 40px;
-  }
 
-  .main-header {
-    height: 5rem;
-    padding: 24px;
-    background-color: #fff;
-  }
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  font-family: "Poppins", sans-serif;
+  background: url("./images/bg/header-shapes\ mobile.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: #fff;
+  margin-bottom: 40%;
+  border-bottom-left-radius: 40px;
+}
 
-  .menu-lists {
-    display: none;
-  }
+.main-header {
+  height: 5rem;
+  padding: 24px;
+  background-color: #fff;
+}
 
-  .info {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: "Poppins", sans-serif;
-  }
+.menu-lists {
+  display: none;
+}
 
-  .info a {
-    text-decoration: none;
-    color: #6070ff;
-    font-size: 20px;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-left: 25px;
-  }
+.info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
 
-  .headlines .about {
-    padding: 24px;
-  }
+.info a {
+  text-decoration: none;
+  color: #6070ff;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: 25px;
+}
 
-  .headlines .intro {
-    font-size: 40px;
-    font-weight: 700;
-    color: #172b4d;
-  }
+.headlines .about {
+  padding: 24px;
+}
 
-  .about p {
-    margin-top: 12px;
-    line-height: 24px;
-    font-weight: 400;
-    color: #344563;
-  }
+.headlines .intro {
+  font-size: 40px;
+  font-weight: 700;
+  color: #172b4d;
+}
 
-  .connect {
-    padding: 0 24px;
-    color: #7f8cff;
-  }
+.about p {
+  margin-top: 12px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #344563;
+}
 
-  .social-media {
-    display: flex;
-    flex-direction: row;
-  }
+.connect {
+  padding: 0 24px;
+  color: #7f8cff;
+}
 
-  .social-icons li {
-    list-style: none;
-    margin-left: 20px;
-    padding-top: 10px;
-  }
+.social-media {
+  display: flex;
+  flex-direction: row;
+}
+
+.social-icons li {
+  list-style: none;
+  margin-left: 20px;
+  padding-top: 10px;
+}
