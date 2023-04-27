@@ -26,7 +26,7 @@
 
 # 📖 [Mobile-Porto-1] <a name="about-project"></a>
 
-I usd flex to position my navbar
+I used flex to position my navbar
 i also used linters to rectify my errors
 
 **[Mobile-Porto-1]** is a...
@@ -53,6 +53,9 @@ i also used linters to rectify my errors
 ### Key Features <a name="key-features"></a>
 
 - **[Home page]**
+- **[Add the project card]**
+- **[Add the About me section]**
+
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -98,12 +101,10 @@ You can deploy this project by transfering files in your local repository onto y
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
-I will add more images to be attructive.
-Am to add buttons for easy access of other features. 
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[add more images to be attractive.]**
+- [ ] **[add contact me form.]**
+- [ ] **[add animations on some of the buttons on click hovering.]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -126,24 +127,19 @@ If you like this project, kindly contact me on my github:Auther(#authors)
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
 I would like to thank Microverse for the best technical training they are taking me through to succed in this project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-How did this man fix the linters ?
+
 How was really these icans captured ?
 
-- **[Question_1]**
+- **[How did this man fix the linters ?]**
 
-  - [Answer_1]
+  - [You can resolve linter errors automatically by inserting the prefix `--fix` for the linters npm]
 
-- **[Question_2]**
-
-  - [Answer_2]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
