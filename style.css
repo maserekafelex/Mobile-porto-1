@@ -51,7 +51,7 @@ body {
 }
 
 .headlines .about {
-  padding: 24px;
+  padding: 10px;
 }
 
 .headlines .intro {
@@ -68,7 +68,7 @@ body {
 }
 
 .connect {
-  padding: 0 24px;
+  padding: 0 10px;
   color: #7f8cff;
 }
 
@@ -79,7 +79,7 @@ body {
 
 .social-icons li {
   list-style: none;
-  margin-left: 20px;
+  margin-left: 10px;
   padding-top: 10px;
 }
 
@@ -87,11 +87,11 @@ body {
   margin-block: 104px;
   display: grid;
   grid-template-columns: 1fr;
-  width: 100%;
+  width: 90%;
   border-radius: 10px;
   background-color: #fff;
   padding: 20px;
-  margin-top: 50px;
+  margin: 50px auto;
 }
 
 .project-image {
@@ -158,11 +158,13 @@ body {
 
 #about-me {
   background-color: #fff;
+  border-top-right-radius: 80px;
+  padding-left: 20px;
 }
 
 .text-h {
   padding-top: 30%;
-  margin-left: 20px;
+  margin-left: 10px;
   font-size: 40px;
 }
 
@@ -185,15 +187,18 @@ body {
   display: flex;
   flex-direction: row;
   margin-left: 10px;
+  font-weight: 600;
 }
 
 .fraze img {
   height: 10px;
   width: 10px;
-  margin-left: 40%;
+  margin-left: 47%;
+  align-self: center;
 }
 
 .language-list li {
+  list-style-type: none;
   background-color: rgba(173, 173, 173, 0.596);
   border-radius: 5px;
   padding-right: -45%;
@@ -216,23 +221,25 @@ body {
 .frm {
   padding: 10px;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   font-family: 'Poppins', sans-serif;
+  list-style: none;
 }
 
 .frm img {
-  margin-left: 40%;
+  margin-left: 44%;
 }
 
 .fa-list {
   padding: 10px;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   font-family: 'Poppins', sans-serif;
+  list-style: none;
 }
 
 .fa-list img {
-  margin-left: 56%;
+  margin-left: 64%;
 }
 
 .text {
