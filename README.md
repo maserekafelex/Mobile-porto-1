@@ -132,6 +132,7 @@ I would like to thank Microverse for the best technical training they are taking
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
 How was really these icans captured ?
