@@ -83,6 +83,11 @@ body {
   list-style: none;
   margin-left: 10px;
   padding-top: 10px;
+  
+}
+.social-med{
+  display: flex;
+  flex-direction: row;
 }
 
 .projects {
@@ -110,6 +115,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.info1{
+  color: #396df2;
+  float: right;
 }
 
 .stack-year .title {
@@ -159,6 +169,12 @@ body {
   margin-left: 14px;
 }
 
+.detail-btn:hover{
+  background: #396df2;
+  color: #fff;
+
+}
+
 #about-me {
   background-color: #fff;
   border-top-right-radius: 80px;
@@ -203,7 +219,7 @@ body {
 
 .language-list li {
   list-style-type: none;
-  background-color: rgba(173, 173, 173, 0.596);
+  background: rgba(247, 247, 249, 1);
   border-radius: 5px;
   gap: 15px;
   margin-top: 10px;
@@ -413,10 +429,25 @@ input[type=submit] {
   .main-header {
     display: flex;
     justify-content: right;
-    margin-top: 30px;
     flex-wrap: wrap;
   }
 
+  .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+   
+}
+
+.info a {
+  text-decoration: none;
+  color: #6070ff;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: capitalize
+
+}
   .item {
     display: inline-block;
     text-decoration: none;
@@ -490,12 +521,13 @@ input[type=submit] {
     font-size: 20px;
     line-height: 28px;
     color: #344563;
+    margin-left: 186px;
   }
 
   .logo {
-    margin-left: -186%;
-    color: red;
-  }
+    margin-left: -292%;
+  
+}
 
   .projects {
     width: 80%;
@@ -592,7 +624,7 @@ input[type=submit] {
 
   .language-list li {
     list-style-type: none;
-    background-color: rgba(173, 173, 173, 0.596);
+    background: rgba(247, 247, 249, 1);
     border-radius: 5px;
     gap: 15px;
     margin-top: 10px;
@@ -612,4 +644,68 @@ input[type=submit] {
   .project-image {
     width: 78%;
   }
+
+  .headlines .intro {
+    font-size: 40px;
+    font-weight: 700;
+    color: #172b4d;
+   margin-left: 181px;
+}
+
+.connect {
+  padding: 0 10px;
+  color: #7f8cff;
+  margin-left: 190px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  margin-left: 187px;
+  margin-bottom: 10%;
+}
+
+.connectx{
+  color: #396df2;
+}
+
+.wak{
+  margin-top: 75px;
+}
+
+.social-med{
+  display: flex;
+  flex-direction: row;
+}
+
+.language-list img {
+  margin-left: 7px;
+  display: block;
+  padding: 17px;
+}
+
+.la-list span {
+  padding: 10px;
+  margin-left: 17px;
+}
+
+.contactform-container p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  padding-top: 10px;
+  margin-left: 22%;
+  margin-right: 22%;
+}
+
+.contactform-container {
+  border-radius: 88px 0 0 0;
+  background-image: url(./images/bg/contact-desk.png);
+  background-position: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
 }
