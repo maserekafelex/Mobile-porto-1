@@ -1,3 +1,14 @@
+@keyframes openApp {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
 
 * {
   margin: 0;
@@ -21,6 +32,7 @@ body {
   background-color: #fff;
   margin-bottom: 12%;
   border-bottom-left-radius: 40px;
+  animation: openApp 0.8s ease-in-out;
 }
 
 .main-header {
@@ -612,11 +624,6 @@ input[type=submit] {
   .project-image {
     width: 78%;
   }
-}
-@keyframes {
-
-  0%{
-
 }
 
   
