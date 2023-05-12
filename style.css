@@ -32,7 +32,8 @@ body {
 .menu-lists {
   display: none;
 }
-.item{
+
+.item {
   display: none;
 }
 
@@ -49,7 +50,6 @@ body {
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
-
 }
 
 .headlines .about {
@@ -144,20 +144,20 @@ body {
 }
 
 .detail-btn {
-      padding: 15px 5px; 
-      border-radius: 8px;
-      color: #6070ff;
-      background-color: #fff;
-      outline: none;
-      border: 1px solid #396df2;
-      width: 50%;
-      width: 150px;
-      margin-block: 30px;
-      cursor: pointer;
-      font-size: 17px;
-      font-weight: 600;
-      margin-left: 14px;
-  }
+  padding: 15px 5px;
+  border-radius: 8px;
+  color: #6070ff;
+  background-color: #fff;
+  outline: none;
+  border: 1px solid #396df2;
+  width: 50%;
+  width: 150px;
+  margin-block: 30px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 600;
+  margin-left: 14px;
+}
 
 #about-me {
   background-color: #fff;
@@ -401,127 +401,126 @@ input[type=submit] {
   cursor: pointer;
 }
 
-#item{
-display: none;
+#item {
+  display: none;
 }
 
 .info img {
   display: none;
 }
- @media screen and (min-width: 768px) {
-    .main-header{
-      display: flex;
-      justify-content: right;
-      margin-top: 30px;
-      flex-wrap: wrap;
-    }
-    
-    .item{
-      display: inline-block;
-      text-decoration: none;
-      font-family: 'Poppins', sans-serif;
-      font-size: 16px;
-      margin-right: 20px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: 20px;
-      color: #344563;
-      outline-style: none;
-    }   
-    
-    .info1{
-      display: none;
-    }    
-    
-    .nav-container {
-      display: flex;
-      flex-wrap: wrap;
-    }    
-    
-    .ruby {
-      display: inline-block;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      background: #EBEBFF;
-      border-radius: 8px;
-      color: #6070FF;
-      font-weight: 222px;
-      font-size: 12px;
-      background-color: #EBEBFF;
-      font-family: 'Poppins', sans-serif;
-      padding: 8px 12px;
-      margin-right: 10px;
-    }  
-    
-    .container{
-      display: flex;
-      flex-direction: column;
-      padding: 24px;
-      font-family: "Poppins", sans-serif;
-      background: url("./images/bg/header-bg.png");
-      background-repeat: no-repeat;
-      background-size: 100% 100%;
-      background-color: #fff;
-      margin-bottom: 12%;
-      border-bottom-left-radius: 40px;
-    }
-    
-    .intro {
-      font-family: 'Poppins', sans-serif;
-      font-style: normal;
-      font-weight: 700;
-      font-size: 48px;
-      line-height: 60px;
-      display: flex;
-      align-items: center;
-      letter-spacing: 0.37px;
-      color: #091E42;
-      margin-top: 205px;
-    }    
-    
-    .about p{
-      display: flex;
-      width: 920px;
-      font-family: 'Poppins', sans-serif;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 20px;
-      line-height: 28px;
-      color: #344563;
-    }      
-    
-     
-    
-    .logo{
-     margin-left: -186%;
-     color: red;
-    }    
-    
-    .projects{
-      width: 80%;
-      height: 400px;
-      border-radius: 24px;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      background: #fff;
-      border: 1px solid #DFE1E6;
-      padding: 10px;
-      padding-left: 2%;
-      margin-left: 8%;
-    }  
 
-    .pic {
-      order: 2;
-    }  
+@media screen and (min-width: 768px) {
+  .main-header {
+    display: flex;
+    justify-content: right;
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
 
-    .image-desk1 {
-      width: 95%;
-      height: 95%;
-    }    
-    
-    .project-tile{  
+  .item {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin-right: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    color: #344563;
+    outline-style: none;
+  }
+
+  .info1 {
+    display: none;
+  }
+
+  .nav-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .ruby {
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #ebebff;
+    border-radius: 8px;
+    color: #6070ff;
+    font-weight: 222px;
+    font-size: 12px;
+    background-color: #ebebff;
+    font-family: 'Poppins', sans-serif;
+    padding: 8px 12px;
+    margin-right: 10px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    font-family: "Poppins", sans-serif;
+    background: url("./images/bg/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #fff;
+    margin-bottom: 12%;
+    border-bottom-left-radius: 40px;
+  }
+
+  .intro {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.37px;
+    color: #091e42;
+    margin-top: 205px;
+  }
+
+  .about p {
+    display: flex;
+    width: 920px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #344563;
+  }
+
+  .logo {
+    margin-left: -186%;
+    color: red;
+  }
+
+  .projects {
+    width: 80%;
+    height: 400px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    padding: 10px;
+    padding-left: 2%;
+    margin-left: 8%;
+  }
+
+  .pic {
+    order: 2;
+  }
+
+  .image-desk1 {
+    width: 95%;
+    height: 95%;
+  }
+
+  .project-tile {
     width: 367px;
     height: 46px;
     font-family: 'Poppins', sans-serif;
@@ -533,86 +532,84 @@ display: none;
     margin-top: 27px;
     margin-right: 46px;
     margin-bottom: 21px;
-    }    
-    
-    .stack-year{
-      width: 297px;
-      height: 33px;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      padding: 0;
-      gap: 12px;
-      margin-left: 16px;
-  }   
-    .btns li{
-      padding: 10px;
-      margin-top: 19px;
-      margin-left: 8px;
-    }    
-
-   .abou{
-      display: flex;
-      flex-direction: row;
-    }
-
-    .inform {
-      display: flex;
-      flex-direction: column;
-      margin-top: 50px;
-      margin-right: 50px;
   }
 
-  .language-list{
+  .stack-year {
+    width: 297px;
+    height: 33px;
     display: flex;
-      flex-direction:row;
-      align-items: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 12px;
+    margin-left: 16px;
   }
 
-.inform{
-  flex: 2;
-}
+  .btns li {
+    padding: 10px;
+    margin-top: 19px;
+    margin-left: 8px;
+  }
 
-.about-container{
-  flex: 2;
-}
+  .abou {
+    display: flex;
+    flex-direction: row;
+  }
 
-.fraze img {
-  margin-left: 70%;
-}
+  .inform {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-right: 50px;
+    flex: 2;
+  }
 
-.frm img {
-  margin-left: 68%;
-}
+  .language-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
 
-.fa-list img {
-  margin-left: 79%;
-}
+  .about-container {
+    flex: 2;
+  }
 
-.frame-work{
-margin-top: 10%;  
-}
+  .fraze img {
+    margin-left: 70%;
+  }
 
-.language-list li {
-  list-style-type: none;
-  background-color: rgba(173, 173, 173, 0.596);
-  border-radius: 5px;
-  gap: 15px;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  margin-left: 10px;
-}
-   
-.para{
-  padding-right: 40px;
-  font-size: 20px;
-}
+  .frm img {
+    margin-left: 68%;
+  }
 
-#image-desk2 img{
-  order: 2;
-}
+  .fa-list img {
+    margin-left: 79%;
+  }
 
-.project-image {
-  width: 78%;
+  .frame-work {
+    margin-top: 10%;
+  }
+
+  .language-list li {
+    list-style-type: none;
+    background-color: rgba(173, 173, 173, 0.596);
+    border-radius: 5px;
+    gap: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+  }
+
+  .para {
+    padding-right: 40px;
+    font-size: 20px;
+  }
+
+  #image-desk2 img {
+    order: 2;
+  }
+
+  .project-image {
+    width: 78%;
+  }
 }
- }
