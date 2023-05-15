@@ -14,13 +14,15 @@
     <header class="main-header">
         <nav>
             <div class="info">
-                <a href="#" class="info-text">Masereka</a>
-                <img src="images/icons/hamburger-icon.svg" alt="hamburger-icon-menu" class="info  -image">
-                <ul class="menu-lists">
+                <a class="logo" href="#">Masereka</a>
+                <nav id="nav-container">
+                <img id="info1" src="images/icons/hamburger-icon.svg" alt="hamburger-icon-menu" class="info  -image">
+                <ul>
                     <li class="item"><a href="#portfolio">Portfolio</a></li>
                     <li class="item"><a href="#about">About</a></li>
                     <li class="item"><a href="#contact">Contact</a></li>
                 </ul>
+            </niv>
             </div>
         </nav>
     </header>
@@ -50,8 +52,8 @@
             </div>
         </section>
     <section id="cards">
-<div class="projects">
-    <img src="images/bg/Snapshoot Portfolio-1.png" alt="Snapshoot Portfolio-1.png" class="project-image">
+<div class="projects" id="image-desk1">
+    <img src="images/bg/Snapshoot Portfolio.png" alt="Snapshoot Portfolio.png" class="project-image">
     <div>
         <div class="project-details">
             <h2 class="project-tile">Tonic</h2>
@@ -74,56 +76,7 @@
     </div>
 </div>
 
-<div class="projects">
-    <img src="images/bg/Snapshoot Portfolio-2.png" alt="Snapshoot Portfolio-2.png" class="project-image">
-    <div>
-        <div class="project-details">
-            <h2 class="project-tile">Multi-Post
-                Stories</h2>
-            <div class="stack-year">
-                <h3 class="title">CANOPY</h3>
-                <img src="images/icons/Counter.png" alt="counter">
-                <h4 class="lang-year">Back End Dev</h4>
-                <img src="images/icons/Counter.png" alt="counter">
-                <h4 class="lang-year">2015</h4>
-            </div>
-        </div>
-        <p class="detail-text">A daily selection of privately personalized reads; no accounts or
-            sign-ups required.</p>
-        <ul class="btns">
-            <li class="btn">HTML</li>
-            <li class="btn">CSS</li>
-            <li class="btn">JavaScript</li>
-        </ul>
-        <button class="detail-btn">See project</button>
-    </div>
-</div>
-
-<div class="projects">
-    <img src="images/bg/Snapshoot Portfolio-3.png" alt="Snapshoot Portfolio-3.png" class="project-image">
-    <div>
-        <div class="project-details">
-            <h2 class="project-tile">Tonic</h2>
-            <div class="stack-year">
-                <h3 class="title">CANOPY</h3>
-                <img src="images/icons/Counter.png" alt="counter">
-                <h4 class="lang-year">Back End Dev</h4>
-                <img src="images/icons/Counter.png" alt="counter">
-                <h4 class="lang-year">2015</h4>
-            </div>
-        </div>
-        <p class="detail-text">A daily selection of privately personalized reads; no accounts or
-            sign-ups required.</p>
-        <ul class="btns">
-            <li class="btn">HTML</li>
-            <li class="btn">CSS</li>
-            <li class="btn">JavaScript</li>
-        </ul>
-        <button class="detail-btn">See project</button>
-    </div>
-</div>
-
-<div class="projects">
+<div class="projects" id="image-desk2">
     <img src="images/bg/Snapshoot Portfolio-4.png" alt="Snapshoot Portfolio-4.png" class="project-image">
     <div>
         <div class="project-details">
@@ -147,23 +100,70 @@
         <button class="detail-btn">See project</button>
     </div>
 </div>
+
+<div class="projects" id="image-desk1">
+    <img src="images/bg/Snapshoot Portfolio-1.png" alt="Snapshoot Portfolio-1.png" class="project-image">
+    <div>
+        <div class="project-details">
+            <h2 class="project-tile">Facebook 360</h2>
+            <div class="stack-year">
+                <h3 class="title">CANOPY</h3>
+                <img src="images/icons/Counter.png" alt="counter">
+                <h4 class="lang-year">Back End Dev</h4>
+                <img src="images/icons/Counter.png" alt="counter">
+                <h4 class="lang-year">2015</h4>
+            </div>
+        </div>
+        <p class="detail-text">A daily selection of privately personalized reads; no accounts or
+            sign-ups required.</p>
+        <ul class="btns">
+            <li class="btn">HTML</li>
+            <li class="btn">CSS</li>
+            <li class="btn">JavaScript</li>
+        </ul>
+        <button class="detail-btn">See project</button>
+    </div>
+</div>
+
+<div class="projects" id="image-desk2">
+    <img src="images/bg/Snapshoot Portfolio-2.png" alt="Snapshoot Portfolio-2.png" class="project-image">
+    <div>
+        <div class="project-details">
+            <h2 class="project-tile">Uber Navigation</h2>
+            <div class="stack-year">
+                <h3 class="title">CANOPY</h3>
+                <img src="images/icons/Counter.png" alt="counter">
+                <h4 class="lang-year">Back End Dev</h4>
+                <img src="images/icons/Counter.png" alt="counter">
+                <h4 class="lang-year">2015</h4>
+            </div>
+        </div>
+        <p class="detail-text">A daily selection of privately personalized reads; no accounts or
+            sign-ups required.</p>
+        <ul class="btns">
+            <li class="btn">HTML</li>
+            <li class="btn">CSS</li>
+            <li class="btn">JavaScript</li>
+        </ul>
+        <button class="detail-btn">See project</button>
+    </div>
+</div>
 </section>
 
 <section id="about-me">
-    <h2 class="text-h">About Myself</h2>
-    <main>
-        <section class="headlines">
+    <div class="abou">
+   
             <div class="about-container">
-                <div class="about" id="about-info">
-                    <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some
+                <h2 class="text-h">About Myself</h2>
+                    <p class="para">Hello I’m a software developer! I can help you build a product , feature or website Look through some
                         of my
                         work and experience! If you like what you see and have a project you need coded, don’t hesitate
                         to
                         contact me.</p>
-                </div>
-                <h2 class="connect">LET’S CONNECT</h2>
+                
+                <h2 class="connectx">LET’S CONNECT</h2>
                 <div class="social-icons">
-                    <ul class="social-media">
+                    <ul class="social-med">
                         <li><a href=""><img src="images/icons/github-icon.svg" alt="github" class="img-tag"></a></li>
                         <li><a href=""><img src="images/icons/linkedin-icon.svg" alt="linkedin" class="img-tag"></a>
                         </li>
@@ -171,31 +171,37 @@
                         <li><a href=""><img src="images/icons/twitter-icon.svg" alt="twitter" class="img-tag"></a></li>
                         <li><a href=""><img src="images/icons/Vector.svg" alt="vector" class="img-tag"></a></li>
                     </ul>
-                </div>
-                <div class="inform">
+             
+                
+                
                     <button class="btn-about">Get my resume</button>
-                    </div class="inform">
+
+                </div>
+                </div>
+                    <div class="inform">
                     <h3 class="fraze">Languages <img src="images/arrows/dropdown.png" alt="#"></h3>
                     <ul class="language-list">
                         <li class="la-list"><img src="images/bg/js.png" alt="js.png" class="img-tag"><span>JavaScript</span></li>
                         <li class="la-list"><img src="images/bg/html.png" alt="html.png" class="img-tag"><span>HTML</span></HTML></li>
                         <li class="la-list"><img src="images/bg/css.png" alt="css.png" class="img-tag"><span>CSS</span></a></li>
                     </ul>
-
-                    <ul>
+                    <ul class="wak" >
                     <li class="frm">Framework <img src="images/arrows/Union.png">
-                    <hr>
-                </li>
+                      <hr>
+                      </li>
                     <li class="fa-list">Skills<img src="images/arrows/Union.png">
                     <hr>
                 </li>
                 </ul>
-            </div>
-    </main>
+             </div>
+          </div>  
+        
+        </section>
+
     <section class="contactform">
         <div class="contactform-container">
             <h3>Contact me</h3>
-            <p>
+            <p class="about-p">
                 If you have an application you are interested in 
                 developing, a feature that you need built or a 
                 project that needs coding. I’d love to help with it!
