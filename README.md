@@ -102,7 +102,6 @@ You can deploy this project by transfering files in your local repository onto y
 - Twitter: [@maserekafelex](https://twitter.com/twittermaserekafelex)
 - LinkedIn: [Masereka Felex](https://linkedin.com/in/linkedinMaserekafelex)
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
