@@ -56,7 +56,7 @@ i also used linters to rectify my errors
 - **[Add the project card]**
 - **[Add the About me section]**
 
-
+- [Live Demo Link]([https://google.com)](https://maserekafelex.github.io/Mobile-porto-1/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
