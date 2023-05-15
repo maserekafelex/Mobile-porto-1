@@ -53,8 +53,6 @@ i also used linters to rectify my errors
 ### Key Features <a name="key-features"></a>
 
 - **[Home page]**
-- **[Add the project card]**
-- **[Add the About me section]**
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
