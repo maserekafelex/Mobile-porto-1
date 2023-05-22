@@ -5,6 +5,97 @@
   box-sizing: border-box;
 }
 
+.navbar{
+  background-color: #262626;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  color: white;
+  text-decoration: navajowhite;
+}
+
+.navbar{
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.navMenu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.nav-branding{
+  font-size: 2rem;
+}
+
+.nav-link{
+  transition: 0.7s ease;
+}
+
+.nav-link:hover{
+  color: dodgerblue;
+}
+
+.hamburger{
+  display: none;
+  cursor:pointer;
+}
+
+.bar{
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+
+.hamburger{
+  display: block;
+}
+
+.hamburger.active .bar:nth-child(2){
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(2){
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(2){
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.navMenu{
+  position: fixed;
+  left: -100%;
+  top: 70px;
+  gap: 0;
+  flex-direction: column;
+  background-color: #262626;
+  width: 100%;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.nav.item{
+  margin: 16px 0;
+}
+
+.navMenu.active{
+  left: 0;
+}
+
 body {
   background-color: #e5e5e5;
   font-family: "Poppins", sans-serif;
@@ -425,6 +516,9 @@ input[type=submit] {
 }
 
 @media screen and (min-width: 768px) {
+  .hamburger{
+    display: block none;
+  }
   .main-header {
     display: flex;
     justify-content: right;
