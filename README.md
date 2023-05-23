@@ -32,6 +32,7 @@ i also used linters to rectify my errors
 **[Mobile-Porto-1]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
+HTML, JavaScript and CSS
 
 ### Tech Stack <a name="tech-stack"></a>
 
