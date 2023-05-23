@@ -74,10 +74,11 @@ a {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: #396df2;
+  position: fixed;
 }
 
 .hamburger.active .bar:nth-child(2) {
-  opacity: 0; 
+  opacity: 0;
 }
 
 .hamburger.active .bar:nth-child(1) {
@@ -88,10 +89,6 @@ a {
 .hamburger.active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
   background-color: #fff;
-}
-
-li{
-  padding-top: 20px;
 }
 
 .navMenu.active {
