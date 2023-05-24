@@ -32,6 +32,7 @@ i also used linters to rectify my errors
 **[Mobile-Porto-1]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
+HTML, JavaScript and CSS
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -53,6 +54,13 @@ i also used linters to rectify my errors
 ### Key Features <a name="key-features"></a>
 
 - **[Home page]**
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://maserekafelex.github.io/Mobile-porto-1/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -92,7 +100,6 @@ You can deploy this project by transfering files in your local repository onto y
 - GitHub: [maserekafelex](https://github.com/githubmaserekafelex)
 - Twitter: [@maserekafelex](https://twitter.com/twittermaserekafelex)
 - LinkedIn: [Masereka Felex](https://linkedin.com/in/linkedinMaserekafelex)
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
