@@ -3,7 +3,7 @@ const emailInput = document.getElementById('email');
 const errorMessage = document.getElementById('error-message');
 
 form.addEventListener('submit', (event) => {
-  event.preventDefault(); 
+  event.preventDefault();
   const email = emailInput.value;
   if (email.trim() === '') {
     errorMessage.textContent = 'Please type your email on the provided space.';
