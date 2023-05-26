@@ -26,8 +26,8 @@
 
 # 📖 [Mobile-Porto-1] <a name="about-project"></a>
 
-I used flex to position my navbar
-i also used linters to rectify my errors
+I used flex to position my navbar 
+i also used linters to rectify my errors. 
 
 **[Mobile-Porto-1]** is a...
 
