@@ -51,7 +51,7 @@ HTML, JavaScript and CSS
 </details>
 
 
-### Key Features <a name="key-features"></a>
+### Key Features  <a name="key-features"></a>
 
 - **[Home page]**
 
