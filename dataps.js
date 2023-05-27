@@ -22,5 +22,5 @@ window.addEventListener('load', () => {
   }
   if (storedMessage) {
     userMessage.value = storedMessage;
-}
+  }
 });
