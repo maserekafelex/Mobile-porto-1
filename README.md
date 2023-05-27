@@ -52,8 +52,11 @@ HTML, JavaScript and CSS
 
 
 ### Key Features <a name="key-features"></a>
+### 
 
-- **[Home page]**
+- Preserve data in the browser
+  - When the user changes the content of any input field, the data is saved to the local storage
+  - When the user loads the page, if there is any data in the local storage the input fields are pre-filled with this data.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
