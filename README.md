@@ -50,9 +50,10 @@ HTML, JavaScript and CSS
   </ul>
 </details>
 
-
+ Data-preservation
 ### Key Features <a name="key-features"></a>
 ### 
+
 
 - Preserve data in the browser
   - When the user changes the content of any input field, the data is saved to the local storage
