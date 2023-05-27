@@ -26,8 +26,8 @@
 
 # 📖 [Mobile-Porto-1] <a name="about-project"></a>
 
-I used flex to position my navbar
-i also used linters to rectify my errors
+I used flex to position my navbar 
+i also used linters to rectify my errors. 
 
 **[Mobile-Porto-1]** is a...
 
@@ -133,7 +133,6 @@ If you like this project, kindly contact me on my github:Auther(#authors)
 I would like to thank Microverse for the best technical training they are taking me through to succed in this project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
